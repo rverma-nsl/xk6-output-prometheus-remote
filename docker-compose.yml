@@ -42,4 +42,4 @@ services:
       - K6_PROMETHEUS_REMOTE_URL=http://prometheus:9090/api/v1/write
       - K6_OUT=output-prometheus-remote
     volumes:
-      - ./example/test.js:/etc/test.js
+      - ./example/postman/libs:/home/k6/libs
